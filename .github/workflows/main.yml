@@ -25,6 +25,7 @@ jobs:
         with:
           server: ftp.tomhouse.fr
           port: 21
+          dangerous-clean-slate: true
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           local-dir: ./build/
